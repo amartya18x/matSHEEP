@@ -1,2 +1,0 @@
-class circuit(object):
-    def __init__(self):
