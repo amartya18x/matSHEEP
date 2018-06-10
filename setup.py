@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     name='matSHEEP',
-    version='1.51',
+    version='1.6',
     author='Amartya Sanyal',
     author_email='amartya18x@gmail.com',
     packages=['matSHEEP'],
