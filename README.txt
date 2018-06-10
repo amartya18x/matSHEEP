@@ -70,4 +70,13 @@ There are a few predefined mini_mods. They can be found in
    - vec_mono_op_cond - Takes a plaintext ``cond`` vector, a plaintext tuple ``ass_types`` containing only ``alias`` and ``negate`` as values and an encrypted bit vector ``input``. It outputs an encrypted bit vector where the ith position has the ``ass_types[cond[idx]]`` operation applied on  ``input[idx]``.
    - Similar operation for matrix and tensor.
 
+You can also visualize the circuits you create. ``test.sheep`` is a circuit file.::
+    import sys
+    import matSHEEP.create_graph as cg
+    complete_node = cg.get_circuit_graph('./test.sheep')
+    ng = cg.networkx_graph(complete_node)
+    ng.draw()
+
+And you can get
+.. image:: images/LL4.png
 For more high level operations and results using layers of Neural Networks visit this markdown
