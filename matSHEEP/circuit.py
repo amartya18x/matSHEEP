@@ -79,6 +79,7 @@ class circuit(object):
         run_cmd.append(input_type)
         run_cmd.append(inputs_file)
         run_cmd.append(eval_strategy)
+        print run_cmd
         if params_file:
             run_cmd.append(params_file)
         p = subprocess.Popen(args=run_cmd, stdout=subprocess.PIPE)
