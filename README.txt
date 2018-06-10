@@ -80,6 +80,6 @@ You can also visualize the circuits you create. ``test.sheep`` is a circuit file
 
 And you can get
 
-.. image:: images/LL4.png
+.. image:: https://raw.githubusercontent.com/amartya18x/matSHEEP/master/images/LL4.png
 
 gFor more high level operations and results using layers of Neural Networks visit this markdown

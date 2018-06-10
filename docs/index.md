@@ -85,11 +85,18 @@ There are a few predefined mini\_mods. They can be found in
             `input[idx]`.
         -   Similar operation for matrix and tensor.
 
-You can also visualize the circuits you create. `test.sheep` is a circuit file.::
+You can also visualize the circuits you create. `test.sheep` is a
+circuit file.:
 
-:   import sys import matSHEEP.create\_graph as cg complete\_node =
-    cg.get\_circuit\_graph(\'./test.sheep\') ng =
-    cg.networkx\_graph(complete\_node) ng.draw()
+    import sys
+    import matSHEEP.create_graph as cg
+    complete_node = cg.get_circuit_graph('./test.sheep')
+    ng = cg.networkx_graph(complete_node)
+    ng.draw()
 
-And you can get .. image:: images/LL4.png For more high level operations
-and results using layers of Neural Networks visit this markdown
+And you can get
+
+![image](https://raw.githubusercontent.com/amartya18x/matSHEEP/master/images/LL4.png)
+
+gFor more high level operations and results using layers of Neural
+Networks visit this markdown
