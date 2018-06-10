@@ -71,6 +71,7 @@ There are a few predefined mini_mods. They can be found in
    - Similar operation for matrix and tensor.
 
 You can also visualize the circuits you create. ``test.sheep`` is a circuit file.::
+
     import sys
     import matSHEEP.create_graph as cg
     complete_node = cg.get_circuit_graph('./test.sheep')
@@ -78,5 +79,7 @@ You can also visualize the circuits you create. ``test.sheep`` is a circuit file
     ng.draw()
 
 And you can get
+
 .. image:: images/LL4.png
-For more high level operations and results using layers of Neural Networks visit this markdown
+
+gFor more high level operations and results using layers of Neural Networks visit this markdown
